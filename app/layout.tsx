@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Fraunces, Karla } from "next/font/google";
+import { Newsreader, Karla } from "next/font/google";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Newsreader({
   variable: "--font-display",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
