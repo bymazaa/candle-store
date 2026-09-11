@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Quiet Flame Co. — Hand-Poured Soy Candles",
-    short_name: "Quiet Flame Co.",
+    name: "Quite Flame Co. — Hand-Poured Soy Candles",
+    short_name: "Quite Flame Co.",
     description:
       "Hand-poured soy candles made in Troy, Michigan. Shop natural, long-lasting scented candles.",
     start_url: "/",
@@ -12,12 +12,12 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#1a1a1a",
     icons: [
       {
-        src: "/icon-192.png",
+        src: "/candle2.jpg",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/icon-512.png",
+        src: "/candle2.jpg",
         sizes: "512x512",
         type: "image/png",
       },

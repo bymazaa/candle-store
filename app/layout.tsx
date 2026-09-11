@@ -22,11 +22,11 @@ const ogImage = `${siteUrl}/candle2.jpg`;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Quiet Flame Co. — Hand-Poured Soy Candles in Troy, Michigan",
-    template: "%s | Quiet Flame Co.",
+    default: "Quite Flame Co. — Hand-Poured Soy Candles in Troy, Michigan",
+    template: "%s | Quite Flame Co.",
   },
   description:
-    "Shop hand-poured soy candles from Quiet Flame Co., a small candle studio in Troy, Michigan. Natural, clean-burning, long-lasting scented candles made one batch at a time.",
+    "Shop hand-poured soy candles from Quite Flame Co., a small candle studio in Troy, Michigan. Natural, clean-burning, long-lasting scented candles made one batch at a time.",
   keywords: [
     "soy candles",
     "hand poured candles",
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     "small batch candles",
     "eco friendly candles",
   ],
-  authors: [{ name: "Quiet Flame Co.", url: siteUrl }],
-  creator: "Quiet Flame Co.",
-  publisher: "Quiet Flame Co.",
-  applicationName: "Quiet Flame Co.",
+  authors: [{ name: "Quite Flame Co.", url: siteUrl }],
+  creator: "Quite Flame Co.",
+  publisher: "Quite Flame Co.",
+  applicationName: "Quite Flame Co.",
   referrer: "origin-when-cross-origin",
   formatDetection: {
     email: false,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Quiet Flame Co.",
+    siteName: "Quite Flame Co.",
     title: "Quiet Flame Co. — Hand-Poured Soy Candles",
     description:
       "Small-batch, hand-poured soy candles made with care in Troy, Michigan. Natural ingredients, clean burn, unforgettable scents.",
@@ -65,18 +65,18 @@ export const metadata: Metadata = {
         url: ogImage,
         width: 1200,
         height: 630,
-        alt: "Quiet Flame Co. hand-poured soy candle",
+        alt: "Quite Flame Co. hand-poured soy candle",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Quiet Flame Co. — Hand-Poured Soy Candles",
+    title: "Quite  Flame Co. — Hand-Poured Soy Candles",
     description:
       "Small-batch, hand-poured soy candles made with care in Troy, Michigan.",
     images: [ogImage],
-    creator: "@quietflameco",
+    creator: "@quiteflameco",
   },
   robots: {
     index: true,
@@ -92,8 +92,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon.ico" }
     ],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
@@ -118,11 +117,11 @@ export const viewport: Viewport = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Store",
-  name: "Quiet Flame Co.",
+  name: "Quite Flame Co.",
   image: ogImage,
   url: siteUrl,
   description:
-    "Quiet Flame Co. is a small studio in Troy, Michigan making hand-poured soy candles, one batch at a time.",
+    "Quite Flame Co. is a small studio in Troy, Michigan making hand-poured soy candles, one batch at a time.",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Troy",

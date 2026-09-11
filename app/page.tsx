@@ -20,6 +20,7 @@ import {
     FaCcPaypal,
     FaStripe,
     FaInstagram,
+    FaWhatsapp,
 } from 'react-icons/fa';
 import { FaPaypal } from 'react-icons/fa6';
 
@@ -199,6 +200,11 @@ const siteInfo = {
             Icon: FaFacebookF,
         },
         { label: 'Instagram', href: '#', Icon: FaInstagram },
+        {
+            label: 'WhatsApp',
+            href: 'https://wa.me/12137920038?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20candles.',
+            Icon: FaWhatsapp,
+        },
     ],
 };
 
